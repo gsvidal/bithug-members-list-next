@@ -9,15 +9,15 @@ const NotFound404 = () => {
   useEffect(() => {
     setTimeout(() => {
       router.push("/")
-    }, 3000)
+    }, 5000)
   }, [router])
 
   return (
     <div className="not-found">
-      <h1>Oops something went wrong</h1>
+      <h1>Oops something went wrong &#9785;</h1>
       <h2>The page couldn&apos;t be found</h2>
       <p>Go back to the <Link href="/"><a>Home</a></Link></p>
-      <p>The page is going to be redirect to home in 3 seconds...</p>
+      <p>The page is going to be redirect to home in 5 seconds...</p>
     </div>
   )
 }
